@@ -6,7 +6,7 @@ console.log(path.join(__dirname, 'public')); //it gives the path where the folde
 
 module.exports = {
  //all configuration details
-    entry: './src/playground/redux-101.js',
+    entry: './src/playground/redux-expensify.js',
     output: {
         path: path.join(__dirname, 'public'), //absolute path(can't use ./) where we wanna output that bundle file,
         filename: 'bundle.js' //anyname we want
