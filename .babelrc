@@ -1,6 +1,9 @@
 //json file it allows us to take all the arguments we passed into the command line
 {
     "presets":["env","react"], //if group of plugin collection, set in presets
-    "plugins":["transform-class-properties"] //if individual plugin, set as each plugin
+    "plugins":[
+        "transform-class-properties",
+        "transform-object-rest-spread" 
+    ] //if individual plugin, set as each plugin
 
 }
